@@ -1,0 +1,962 @@
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(127,255,212,0.5);
+}
+header .menu-icon{
+cursor: pointer;
+    display: none;
+}
+
+header img{
+width: 70px;
+height: 70px;
+}
+
+header .logo p {
+    float:right;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: slategray;
+}
+
+main{
+    margin:20px;
+}
+
+img{
+    padding:10px 10px;
+}
+
+.side-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.side-nav a{
+    background-color: #fff;
+    padding: 12px 5px;
+    margin-right:13px;
+    border-radius: 10px;
+    color: slategray;
+}
+
+.side-nav a:hover{
+    color: #fff;
+    background-color: rgb(255,140,0);
+}
+header .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+header img{
+width: 70px;
+height: 70px;
+}
+
+header .logo p {
+    float:right;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: slategray;
+}
+
+main{
+    margin:20px;
+}
+
+img{
+    padding:10px 10px;
+}
+
+@media (max-width: 770px){
+    .card-aldo h2{
+    
+        font-size:20px;
+        text-align: center;
+    }
+   
+    
+    .card-aldo, .medsoc, .desc{
+        margin: 0 auto;
+        float:none;
+        text-align: center;
+    }
+   .desc p {
+        float:none;
+        text-align: center;
+    }
+    .medsoc a {
+        text-align: center;
+    }
+}
+@media (max-width: 425px){
+    header .menu-icon{
+        padding:10px 15px;
+        display: inline-block;
+    }
+    header .signup,.login{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+  .medsoc a{
+      display: block;
+      margin-bottom:5px;
+
+  }
+    
+}
+@media (max-width:670px) {
+    header{
+        width: 100%;
+    }
+    .desc{
+        display:none;
+        
+    }
+    .card-aldo h2{
+    
+        font-size:20px;
+        text-align: center;
+    }
+   
+    .tag{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .tag p{
+        margin:3px;
+   
+        border-radius: 30px;
+       font-size: 10px;
+        display: block;
+        font-weight: bold;
+    }
+    .medsoc{
+        text-align: center;
+    }
+}
+*{
+    box-sizing: border-box;
+ margin :0;
+}
+
+a{
+   
+    text-decoration: none !important;
+}
+.card-aldo{
+    margin: 0 10px;
+    margin :0 auto;
+    padding:10px 25px;
+    box-shadow: 5px 10px rgb(211,211,211);
+    text-align: right;
+    border-radius: 0 0 10px 10px;
+    width: 45%;
+    background-color: rgb(240,248,255);
+}
+.card-aldo p{
+    
+    border-radius: 30px;
+    padding: 3px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+.card-aldo h2{
+    color:rgb(0,128,128);
+    margin-bottom:15px;
+    
+}
+.card-aldo p,h2{
+    font-family: 'Poppins', sans-serif;
+    
+  
+}
+.card-aldo p{
+    
+    border-radius: 30px;
+    padding: 3px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+.card-aldo .desc p {
+    margin-top:10px;
+    padding: 0;
+    text-align: right;
+    font-size: 10x;
+    font-weight: 500;
+}
+.red{
+    
+    color: ivory;
+    background-color:rgba(255, 0, 0, 0.6);
+}
+.aqua{ 
+    color: rgba(127,255,212,0.5);;
+}
+.blue{
+    color: ivory;
+    background-color:rgb(30,144,255,0.6);
+}
+.purple{
+    color: ivory;
+    background-color:rgba(138,43,226,0.6);
+}
+.medsoc{
+    
+    margin-top:10px;
+}
+
+.bi-facebook{
+    transition: all .2s ease-in-out;
+    color:rgb(0,128,128);
+  
+  
+}
+.bi-twitter{
+    transition: all .2s ease-in-out;
+    color:rgb(0,128,128);
+    
+  
+}
+.bi-linkedin{
+    transition: all .2s ease-in-out;
+    color:rgb(0,128,128);
+    
+}
+.medsoc a:hover{
+    color:rgb(255,140,0);
+  
+}
+
+/*CODE RA */
+.card-ridho {
+    margin: 0 auto;
+    padding: 10px 25px;
+    box-shadow: 5px 10px #FFDE3D ;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+    width: 45%;
+    background-color: azure;
+}
+
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    padding: 30px 50px;
+    background-color: rgba(127, 255, 212, 0.5);
+    text-align: center;
+    display: flex;
+    gap: 150px;
+    font-family: 'Poppins';
+}
+
+footer .deskripsi {
+    text-align: left;
+    padding: 0px;
+}
+
+footer .deskripsi h1 {
+    font-size: 20px;
+}
+
+footer .deskripsi p {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+footer .link {
+    width: 60%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+footer .link h1 {
+    font-size: 20px;
+}
+
+footer .link a {
+    font-size: 14px;
+    color: #0E76A8;
+    line-height: 30px;
+}
+
+footer .icon img {
+    height: 100px;
+}
+
+footer .group {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    width: 40%;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-end {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 128, 128);
+    color: white;
+    font-family: 'Poppins';
+}
+
+
+@media (max-width: 670px) {
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer .link {
+        display: none;
+    }
+    footer .group {
+        width: 100%;
+        padding: 10px 30px;
+    }
+}
+
+/* CODE SAF */
+.card-saf .contains {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+    border-radius: 20px;
+    width: 45%;
+    box-shadow: 5px 5px 25px #e8e8e8;
+    display: flex;
+    gap: 20px;
+}
+.card-saf .contains :hover {
+    margin-top: 2px;
+    background-color: #ececec;
+    ;
+}
+.card-saf img {
+    height: 150px;
+    border-radius: 20px;
+}
+.description {
+    width: 100%;
+    margin: 0px;
+}
+.description p {
+    font-size: 24px;
+    text-align: justify;
+}
+.btn-saf {
+    padding: 8px 10px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0px;
+}
+.btn-saf:hover {
+    opacity: 1;
+}
+.linkedin:hover {
+    background-color: #0E76A8;
+    border-color: #0E76A8;
+    color: white;
+}
+.instagram:hover {
+    background-color: #3f729b;
+    border-color: #3f729b;
+    color: white;
+}
+i.fab {
+    font-size: 16px;
+}
+.icon-sosmed {
+    display: flex;
+    gap: 10px;
+    float: right;
+}
+.text {
+    margin: 50px 0px 0px 0px;
+}
+.text h1 {
+    font-size: 18px;
+}
+.text p {
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 670px) {
+    .contains {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text {
+        margin-top: 0px;
+    }
+    
+    .text p {
+        display: none;
+    }
+    
+    .icon-sosmed {
+        text-align: center;
+    }
+}
+
+
+/* Css Rizky */
+.card-rizky {
+    margin : 0 auto;
+}
+
+.card-wrapper {
+    margin: 0px auto;
+    min-height: 250px;
+    display: flex;
+    color: #404040;
+  }
+  
+  .card-wrapper .left-part {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .card-wrapper .left-part span {
+    background: #c8645b;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px 0;
+    font-weight: 600;
+  }
+  
+  .card-wrapper .right-part * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-wrapper-1 {
+    flex-direction: row;
+  }
+
+  
+  .card-wrapper-1 .left-part {
+    background: #ec766c;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid #c8645b;
+  }
+
+  .card-wrapper-1 .right-part {
+    padding: 20px;
+    flex: 1;
+    position: relative;
+  }
+  
+  
+  .card-wrapper-1 .right-part {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to right, #ec766c 50%, #F6E7D8 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card-wrapper-1 .right-part:hover {
+    transition: all 2s ease;
+    background-position: left bottom;
+    color: #fff
+  }
+  
+  .card-wrapper .left-part img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .orig-font {
+    font-family: "Righteous", cursive;
+  }
+  
+  .text-center {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-profiles {
+    padding: 20px 10px;
+    margin: 10px 0;
+  }
+
+  /* RESPONSIVE CSS Rizky */
+  @media (min-width: 670px) {
+    .card-wrapper {
+        max-width: 45%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .card-wrapper {
+      max-width: 200px;
+    }
+  }
+
+/* Nuril Area */
+/* ;
+    color: #fff;
+} */
+@media (max-width:670px) {
+    header{
+        width: 100%;
+    }
+    .desc{
+        display:none;
+        
+    }
+    .card-aldo h2{
+    
+        font-size:20px;
+        text-align: center;
+    }
+   
+    .tag{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .tag p{
+        margin:3px;
+   
+        border-radius: 30px;
+       font-size: 10px;
+        display: block;
+        font-weight: bold;
+    }
+    .medsoc{
+        text-align: center;
+    }
+}
+*{
+    box-sizing: border-box;
+ margin :0;
+}
+
+a{
+   
+    text-decoration: none !important;
+}
+.card-aldo{
+    margin: 0 10px;
+    margin :0 auto;
+    padding:10px 25px;
+    box-shadow: 5px 10px rgb(211,211,211);
+    text-align: right;
+    border-radius: 0 0 10px 10px;
+    width: 45%;
+    background-color: rgb(240,248,255);
+}
+.card-aldo p{
+    
+    border-radius: 30px;
+    padding: 3px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+.card-aldo h2{
+    color:rgb(0,128,128);
+    margin-bottom:15px;
+    
+}
+.card-aldo p,h2{
+    font-family: 'Poppins', sans-serif;
+    
+  
+}
+.card-aldo p{
+    
+    border-radius: 30px;
+    padding: 3px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+.card-aldo .desc p {
+    margin-top:10px;
+    padding: 0;
+    text-align: right;
+    font-size: 10x;
+    font-weight: 500;
+}
+.red{
+    
+    color: ivory;
+    background-color:rgba(255, 0, 0, 0.6);
+}
+.aqua{ 
+    color: rgba(127,255,212,0.5);;
+}
+.blue{
+    color: ivory;
+    background-color:rgb(30,144,255,0.6);
+}
+.purple{
+    color: ivory;
+    background-color:rgba(138,43,226,0.6);
+}
+.medsoc{
+    
+    margin-top:10px;
+}
+
+.bi-facebook{
+    transition: all .2s ease-in-out;
+    color:rgb(0,128,128);
+  
+  
+}
+.bi-twitter{
+    transition: all .2s ease-in-out;
+    color:rgb(0,128,128);
+    
+  
+}
+.bi-linkedin{
+    transition: all .2s ease-in-out;
+    color:rgb(0,128,128);
+    
+}
+.medsoc a:hover{
+    color:rgb(255,140,0);
+  
+}
+
+/*CODE RA */
+.card-ridho {
+    margin: 0 auto;
+    padding: 10px 25px;
+    box-shadow: 5px 10px #FFDE3D ;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+    width: 45%;
+    background-color: azure;
+}
+
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    padding: 30px 50px;
+    background-color: rgba(127, 255, 212, 0.5);
+    text-align: center;
+    display: flex;
+    gap: 150px;
+    font-family: 'Poppins';
+}
+
+footer .deskripsi {
+    text-align: left;
+    padding: 0px;
+}
+
+footer .deskripsi h1 {
+    font-size: 20px;
+}
+
+footer .deskripsi p {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+footer .link {
+    width: 60%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+footer .link h1 {
+    font-size: 20px;
+}
+
+footer .link a {
+    font-size: 14px;
+    color: #0E76A8;
+    line-height: 30px;
+}
+
+footer .icon img {
+    height: 100px;
+}
+
+footer .group {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    width: 40%;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-end {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 128, 128);
+    color: white;
+    font-family: 'Poppins';
+}
+
+
+@media (max-width: 670px) {
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer .link {
+        display: none;
+    }
+    footer .group {
+        width: 100%;
+        padding: 10px 30px;
+    }
+}
+
+/* CODE SAF */
+.card-saf .contains {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+    border-radius: 20px;
+    width: 45%;
+    box-shadow: 5px 5px 25px #e8e8e8;
+    display: flex;
+    gap: 20px;
+}
+.card-saf .contains :hover {
+    margin-top: 2px;
+    background-color: #ececec;
+    ;
+}
+.card-saf img {
+    height: 150px;
+    border-radius: 20px;
+}
+.description {
+    width: 100%;
+    margin: 0px;
+}
+.description p {
+    font-size: 24px;
+    text-align: justify;
+}
+.btn-saf {
+    padding: 8px 10px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0px;
+}
+.btn-saf:hover {
+    opacity: 1;
+}
+.linkedin:hover {
+    background-color: #0E76A8;
+    border-color: #0E76A8;
+    color: white;
+}
+.instagram:hover {
+    background-color: #3f729b;
+    border-color: #3f729b;
+    color: white;
+}
+i.fab {
+    font-size: 16px;
+}
+.icon-sosmed {
+    display: flex;
+    gap: 10px;
+    float: right;
+}
+.text {
+    margin: 50px 0px 0px 0px;
+}
+.text h1 {
+    font-size: 18px;
+}
+.text p {
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 670px) {
+    .contains {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text {
+        margin-top: 0px;
+    }
+    
+    .text p {
+        display: none;
+    }
+    
+    .icon-sosmed {
+        text-align: center;
+    }
+}
+
+
+/* Css Rizky */
+.card-rizky {
+    margin : 0 auto;
+}
+
+.card-wrapper {
+    margin: 0px auto;
+    min-height: 250px;
+    display: flex;
+    color: #404040;
+  }
+  
+  .card-wrapper .left-part {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .card-wrapper .left-part span {
+    background: #c8645b;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px 0;
+    font-weight: 600;
+  }
+  
+  .card-wrapper .right-part * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-wrapper-1 {
+    flex-direction: row;
+  }
+
+  
+  .card-wrapper-1 .left-part {
+    background: #ec766c;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid #c8645b;
+  }
+
+  .card-wrapper-1 .right-part {
+    padding: 20px;
+    flex: 1;
+    position: relative;
+  }
+  
+  
+  .card-wrapper-1 .right-part {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to right, #ec766c 50%, #F6E7D8 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card-wrapper-1 .right-part:hover {
+    transition: all 2s ease;
+    background-position: left bottom;
+    color: #fff
+  }
+  
+  .card-wrapper .left-part img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .orig-font {
+    font-family: "Righteous", cursive;
+  }
+  
+  .text-center {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-profiles {
+    padding: 20px 10px;
+    margin: 10px 0;
+  }
+
+  /* RESPONSIVE CSS Rizky */
+  @media (min-width: 670px) {
+    .card-wrapper {
+        max-width: 45%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .card-wrapper {
+      max-width: 200px;
+    }
+  }
+
+/* Nuril Area */
