@@ -534,6 +534,114 @@ i.fab {
 }
 
 /* Nuril Area */
-/* ;
-    color: #fff;
-} */
+.container-card-N {
+	box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 350px;
+	width: 700px;
+}
+
+.card-N {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+
+}
+.card-N h1,.information{
+  font-family: "Poppins", sans-serif;
+  
+}
+.card-N h1{
+  font-size: 25px;
+}
+.card-N .information{
+  
+  margin-top:15px;
+  font-size: 15px;
+  padding: 2px;
+}
+.image-N {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	
+	width: 45%;
+	display: inline-block;
+}
+.image-N img{
+  border-radius: 60%;
+}
+.container-card-N img {width: 100%;height: 100%;}
+
+.image-N .info {
+	background: rgba(27, 26, 26, 0.9);
+  font-family: "Poppins", sans-serif;
+	transition: all 0.3s ease-out;
+	transform: translateX(-100%);
+	position: absolute;
+	line-height: 1.8;
+	text-align: left;
+	font-size: 105%;
+	cursor: no-drop;
+	color: #FFF;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.info h2 {text-align: center;  }
+.image-N:hover .info {transform: translateX(0);}
+.image-N:hover img {transition: all 0.3s ease-out; transform: scale(1.2, 1.2);}
+
+.card-tag {
+	/* float: right; */
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px 0 0;
+	/* width: 180px; */
+
+}
+
+.card-tag a {
+	/* margin-left: 5px;
+	margin-right: 5px; */
+	font-size: 20px;
+	text-decoration: none;
+  padding: 10px 10px;
+  color: #008000 ;
+}
+.card-tag a:hover{
+  color: rgb(255, 140, 0);
+}
+
+
+
+.btn {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 5px 3px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.default {
+	border-color: #e7e7e7;
+	color: black;
+}
+
+.default:hover {
+	background: #e7e7e7;
+}
+
