@@ -2,8 +2,8 @@
 
 
 This is our great team: 
-> Ronaldo Subianto Panjaitan
-> Ridho Anugrah
-> Safitri Herdian Rachmawati
-> Rizky Alfiansyah
-> Nuril Asyrofiyyah
+> Ronaldo Subianto Panjaitan ,
+> Ridho Anugrah ,
+> Safitri Herdian Rachmawati ,
+> Rizky Alfiansyah , 
+> Nuril Asyrofiyyah ,
