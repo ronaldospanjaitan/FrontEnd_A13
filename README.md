@@ -6,4 +6,4 @@ This is our great team:
 > Ridho Anugrah ,
 > Safitri Herdian Rachmawati ,
 > Rizky Alfiansyah , 
-> Nuril Asyrofiyyah ,
+> Nuril Asyrofiyyah .
